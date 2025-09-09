@@ -1,0 +1,36 @@
+[0.837s] Invoking command in '/home/ffons/ros2_companion_ws/scr/first_package_x': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_x build --build-base /home/ffons/ros2_companion_ws/build/first_package_x/build install --record /home/ffons/ros2_companion_ws/build/first_package_x/install.log --single-version-externally-managed install_data
+[1.049s] running egg_info
+[1.050s] creating ../../build/first_package_x/first_package_x.egg-info
+[1.050s] writing ../../build/first_package_x/first_package_x.egg-info/PKG-INFO
+[1.051s] writing dependency_links to ../../build/first_package_x/first_package_x.egg-info/dependency_links.txt
+[1.051s] writing entry points to ../../build/first_package_x/first_package_x.egg-info/entry_points.txt
+[1.051s] writing requirements to ../../build/first_package_x/first_package_x.egg-info/requires.txt
+[1.052s] writing top-level names to ../../build/first_package_x/first_package_x.egg-info/top_level.txt
+[1.052s] writing manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+[1.055s] reading manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+[1.055s] writing manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+[1.055s] running build
+[1.055s] running build_py
+[1.056s] creating /home/ffons/ros2_companion_ws/build/first_package_x/build
+[1.056s] creating /home/ffons/ros2_companion_ws/build/first_package_x/build/lib
+[1.056s] creating /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x
+[1.057s] copying first_package_x/first_talker_node.py -> /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x
+[1.057s] copying first_package_x/__init__.py -> /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x
+[1.057s] running install
+[1.057s] running install_lib
+[1.058s] creating /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.059s] copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/first_talker_node.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.059s] copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/__init__.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.059s] byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/first_talker_node.py to first_talker_node.cpython-310.pyc
+[1.060s] byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/__init__.py to __init__.cpython-310.pyc
+[1.060s] running install_data
+[1.060s] creating /home/ffons/ros2_companion_ws/install/first_package_x/share/ament_index
+[1.061s] creating /home/ffons/ros2_companion_ws/install/first_package_x/share/ament_index/resource_index
+[1.061s] creating /home/ffons/ros2_companion_ws/install/first_package_x/share/ament_index/resource_index/packages
+[1.062s] copying resource/first_package_x -> /home/ffons/ros2_companion_ws/install/first_package_x/share/ament_index/resource_index/packages
+[1.062s] copying package.xml -> /home/ffons/ros2_companion_ws/install/first_package_x/share/first_package_x
+[1.062s] running install_egg_info
+[1.064s] Copying ../../build/first_package_x/first_package_x.egg-info to /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x-0.0.0-py3.10.egg-info
+[1.066s] running install_scripts
+[1.088s] writing list of installed files to '/home/ffons/ros2_companion_ws/build/first_package_x/install.log'
+[1.119s] Invoked command in '/home/ffons/ros2_companion_ws/scr/first_package_x' returned '0': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_x build --build-base /home/ffons/ros2_companion_ws/build/first_package_x/build install --record /home/ffons/ros2_companion_ws/build/first_package_x/install.log --single-version-externally-managed install_data

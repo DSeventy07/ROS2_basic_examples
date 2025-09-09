@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing first_package_x.egg-info/PKG-INFO
+writing dependency_links to first_package_x.egg-info/dependency_links.txt
+writing entry points to first_package_x.egg-info/entry_points.txt
+writing requirements to first_package_x.egg-info/requires.txt
+writing top-level names to first_package_x.egg-info/top_level.txt
+reading manifest file 'first_package_x.egg-info/SOURCES.txt'
+writing manifest file 'first_package_x.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first-package-x.egg-link (link to .)
+Installing draw_circle_turtle script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+Installing test_node_1 script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+
+Installed /home/ffons/ros2_companion_ws/build/first_package_x
+running symlink_data
+symbolically linking /home/ffons/ros2_companion_ws/build/first_package_x/resource/first_package_x -> /home/ffons/ros2_companion_ws/install/first_package_x/share/ament_index/resource_index/packages
+symbolically linking /home/ffons/ros2_companion_ws/build/first_package_x/package.xml -> /home/ffons/ros2_companion_ws/install/first_package_x/share/first_package_x

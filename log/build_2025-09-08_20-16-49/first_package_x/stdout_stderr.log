@@ -1,0 +1,32 @@
+running develop
+Removing /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first-package-x.egg-link (link to .)
+running egg_info
+writing ../../build/first_package_x/first_package_x.egg-info/PKG-INFO
+writing dependency_links to ../../build/first_package_x/first_package_x.egg-info/dependency_links.txt
+writing entry points to ../../build/first_package_x/first_package_x.egg-info/entry_points.txt
+writing requirements to ../../build/first_package_x/first_package_x.egg-info/requires.txt
+writing top-level names to ../../build/first_package_x/first_package_x.egg-info/top_level.txt
+reading manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+writing manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+running build
+running build_py
+copying first_package_x/first_talker_node.py -> /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x
+copying first_package_x/draw_circles_node.py -> /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x
+running install
+running install_lib
+creating /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/first_talker_node.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/draw_circles_node.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/__init__.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/first_talker_node.py to first_talker_node.cpython-310.pyc
+byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/draw_circles_node.py to draw_circles_node.cpython-310.pyc
+byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/first_package_x -> /home/ffons/ros2_companion_ws/install/first_package_x/share/ament_index/resource_index/packages
+copying package.xml -> /home/ffons/ros2_companion_ws/install/first_package_x/share/first_package_x
+running install_egg_info
+Copying ../../build/first_package_x/first_package_x.egg-info to /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x-0.0.0-py3.10.egg-info
+running install_scripts
+Installing draw_circle_turtle script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+Installing test_node_1 script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+writing list of installed files to '/home/ffons/ros2_companion_ws/build/first_package_x/install.log'

@@ -1,0 +1,6 @@
+[console_scripts]
+draw_circle_turtle = first_package_x.draw_circles_node:main
+pose_suscriber = first_package_x.pose_suscriber:main
+test_node_1 = first_package_x.first_talker_node:main
+turtle_controller = first_package_x.turtle_controller_node:main
+

@@ -1,0 +1,20 @@
+[1.199s] Invoking command in '/home/ffons/ros2_companion_ws/build/first_package_x': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ffons/ros2_companion_ws/build/first_package_x/build --no-deps symlink_data
+[1.598s] running develop
+[1.802s] running egg_info
+[1.804s] writing first_package_x.egg-info/PKG-INFO
+[1.804s] writing dependency_links to first_package_x.egg-info/dependency_links.txt
+[1.804s] writing entry points to first_package_x.egg-info/entry_points.txt
+[1.805s] writing requirements to first_package_x.egg-info/requires.txt
+[1.805s] writing top-level names to first_package_x.egg-info/top_level.txt
+[1.808s] reading manifest file 'first_package_x.egg-info/SOURCES.txt'
+[1.809s] writing manifest file 'first_package_x.egg-info/SOURCES.txt'
+[1.811s] running build_ext
+[1.811s] Creating /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first-package-x.egg-link (link to .)
+[1.813s] Installing draw_circle_turtle script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[1.813s] Installing pose_suscriber script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[1.813s] Installing test_node_1 script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[1.814s] Installing turtle_controller script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[1.815s] 
+[1.815s] Installed /home/ffons/ros2_companion_ws/build/first_package_x
+[1.815s] running symlink_data
+[1.859s] Invoked command in '/home/ffons/ros2_companion_ws/build/first_package_x' returned '0': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ffons/ros2_companion_ws/build/first_package_x/build --no-deps symlink_data
