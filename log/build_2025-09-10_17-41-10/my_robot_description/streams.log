@@ -1,0 +1,33 @@
+[1.136s] Invoking command in '/home/ffons/ros2_companion_ws/scr/my_robot_description': PYTHONPATH=/home/ffons/ros2_companion_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/my_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/ffons/ros2_companion_ws/build/my_robot_description/build install --record /home/ffons/ros2_companion_ws/build/my_robot_description/install.log --single-version-externally-managed install_data
+[1.383s] running egg_info
+[1.383s] creating ../../build/my_robot_description/my_robot_description.egg-info
+[1.384s] writing ../../build/my_robot_description/my_robot_description.egg-info/PKG-INFO
+[1.385s] writing dependency_links to ../../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt
+[1.385s] writing entry points to ../../build/my_robot_description/my_robot_description.egg-info/entry_points.txt
+[1.385s] writing requirements to ../../build/my_robot_description/my_robot_description.egg-info/requires.txt
+[1.386s] writing top-level names to ../../build/my_robot_description/my_robot_description.egg-info/top_level.txt
+[1.386s] writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[1.388s] reading manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[1.389s] writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[1.389s] running build
+[1.389s] running build_py
+[1.390s] creating /home/ffons/ros2_companion_ws/build/my_robot_description/build
+[1.390s] creating /home/ffons/ros2_companion_ws/build/my_robot_description/build/lib
+[1.391s] creating /home/ffons/ros2_companion_ws/build/my_robot_description/build/lib/my_robot_description
+[1.391s] copying my_robot_description/__init__.py -> /home/ffons/ros2_companion_ws/build/my_robot_description/build/lib/my_robot_description
+[1.392s] running install
+[1.392s] running install_lib
+[1.393s] creating /home/ffons/ros2_companion_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description
+[1.394s] copying /home/ffons/ros2_companion_ws/build/my_robot_description/build/lib/my_robot_description/__init__.py -> /home/ffons/ros2_companion_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description
+[1.395s] byte-compiling /home/ffons/ros2_companion_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description/__init__.py to __init__.cpython-310.pyc
+[1.396s] running install_data
+[1.396s] creating /home/ffons/ros2_companion_ws/install/my_robot_description/share/ament_index
+[1.398s] creating /home/ffons/ros2_companion_ws/install/my_robot_description/share/ament_index/resource_index
+[1.399s] creating /home/ffons/ros2_companion_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[1.401s] copying resource/my_robot_description -> /home/ffons/ros2_companion_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[1.401s] copying package.xml -> /home/ffons/ros2_companion_ws/install/my_robot_description/share/my_robot_description
+[1.401s] running install_egg_info
+[1.404s] Copying ../../build/my_robot_description/my_robot_description.egg-info to /home/ffons/ros2_companion_ws/install/my_robot_description/lib/python3.10/site-packages/my_robot_description-0.0.0-py3.10.egg-info
+[1.405s] running install_scripts
+[1.430s] writing list of installed files to '/home/ffons/ros2_companion_ws/build/my_robot_description/install.log'
+[1.469s] Invoked command in '/home/ffons/ros2_companion_ws/scr/my_robot_description' returned '0': PYTHONPATH=/home/ffons/ros2_companion_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/my_robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/ffons/ros2_companion_ws/build/my_robot_description/build install --record /home/ffons/ros2_companion_ws/build/my_robot_description/install.log --single-version-externally-managed install_data

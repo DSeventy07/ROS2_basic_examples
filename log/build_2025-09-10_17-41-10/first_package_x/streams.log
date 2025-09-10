@@ -1,0 +1,41 @@
+[1.153s] Invoking command in '/home/ffons/ros2_companion_ws/build/first_package_x': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ffons/ros2_companion_ws/build/first_package_x/build
+[1.427s] running develop
+[1.587s] Removing /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first-package-x.egg-link (link to .)
+[1.621s] Invoked command in '/home/ffons/ros2_companion_ws/build/first_package_x' returned '0': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ffons/ros2_companion_ws/build/first_package_x/build
+[1.624s] Invoking command in '/home/ffons/ros2_companion_ws/scr/first_package_x': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_x build --build-base /home/ffons/ros2_companion_ws/build/first_package_x/build install --record /home/ffons/ros2_companion_ws/build/first_package_x/install.log --single-version-externally-managed install_data --force
+[1.851s] running egg_info
+[1.852s] writing ../../build/first_package_x/first_package_x.egg-info/PKG-INFO
+[1.853s] writing dependency_links to ../../build/first_package_x/first_package_x.egg-info/dependency_links.txt
+[1.853s] writing entry points to ../../build/first_package_x/first_package_x.egg-info/entry_points.txt
+[1.853s] writing requirements to ../../build/first_package_x/first_package_x.egg-info/requires.txt
+[1.853s] writing top-level names to ../../build/first_package_x/first_package_x.egg-info/top_level.txt
+[1.856s] reading manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+[1.857s] writing manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+[1.857s] running build
+[1.858s] running build_py
+[1.858s] copying first_package_x/pose_suscriber.py -> /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x
+[1.858s] copying first_package_x/turtle_controller_node.py -> /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x
+[1.858s] running install
+[1.859s] running install_lib
+[1.860s] creating /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.861s] copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/pose_suscriber.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.861s] copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/turtle_controller_node.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.861s] copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/first_talker_node.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.861s] copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/draw_circles_node.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.861s] copying /home/ffons/ros2_companion_ws/build/first_package_x/build/lib/first_package_x/__init__.py -> /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x
+[1.862s] byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/pose_suscriber.py to pose_suscriber.cpython-310.pyc
+[1.863s] byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/turtle_controller_node.py to turtle_controller_node.cpython-310.pyc
+[1.864s] byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/first_talker_node.py to first_talker_node.cpython-310.pyc
+[1.864s] byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/draw_circles_node.py to draw_circles_node.cpython-310.pyc
+[1.865s] byte-compiling /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x/__init__.py to __init__.cpython-310.pyc
+[1.865s] running install_data
+[1.865s] copying resource/first_package_x -> /home/ffons/ros2_companion_ws/install/first_package_x/share/ament_index/resource_index/packages
+[1.865s] copying package.xml -> /home/ffons/ros2_companion_ws/install/first_package_x/share/first_package_x
+[1.865s] running install_egg_info
+[1.868s] Copying ../../build/first_package_x/first_package_x.egg-info to /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x-0.0.0-py3.10.egg-info
+[1.870s] running install_scripts
+[1.889s] Installing draw_circle_turtle script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[1.889s] Installing pose_suscriber script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[1.889s] Installing test_node_1 script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[1.889s] Installing turtle_controller script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[1.890s] writing list of installed files to '/home/ffons/ros2_companion_ws/build/first_package_x/install.log'

@@ -1,0 +1,22 @@
+[0.267s] Invoking command in '/home/ffons/ros2_companion_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=/home/ffons/ros2_companion_ws/install/first_package_x:/opt/ros/humble /usr/bin/cmake /home/ffons/ros2_companion_ws/scr/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/ffons/ros2_companion_ws/install/my_robot_bringup
+[0.465s] -- The C compiler identification is GNU 11.4.0
+[0.922s] -- The CXX compiler identification is GNU 11.4.0
+[1.221s] -- Detecting C compiler ABI info
+[1.362s] -- Detecting C compiler ABI info - done
+[1.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.370s] -- Detecting C compile features
+[1.371s] -- Detecting C compile features - done
+[1.376s] -- Detecting CXX compiler ABI info
+[1.520s] -- Detecting CXX compiler ABI info - done
+[1.527s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.528s] -- Detecting CXX compile features
+[1.528s] -- Detecting CXX compile features - done
+[1.548s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.704s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.822s] [31mCMake Error at CMakeLists.txt:11 (install):
+[1.822s]   install DIRECTORY given no DESTINATION!
+[1.822s] 
+[1.822s] [0m
+[1.889s] -- Configuring incomplete, errors occurred!
+[1.889s] See also "/home/ffons/ros2_companion_ws/build/my_robot_bringup/CMakeFiles/CMakeOutput.log".
+[1.895s] Invoked command in '/home/ffons/ros2_companion_ws/build/my_robot_bringup' returned '1': CMAKE_PREFIX_PATH=/home/ffons/ros2_companion_ws/install/first_package_x:/opt/ros/humble /usr/bin/cmake /home/ffons/ros2_companion_ws/scr/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/ffons/ros2_companion_ws/install/my_robot_bringup
