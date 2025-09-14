@@ -1,0 +1,24 @@
+[1.878s] Invoking command in '/home/ffons/ros2_companion_ws/scr/first_package_x': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_x build --build-base /home/ffons/ros2_companion_ws/build/first_package_x/build install --record /home/ffons/ros2_companion_ws/build/first_package_x/install.log --single-version-externally-managed install_data
+[2.331s] running egg_info
+[2.332s] writing ../../build/first_package_x/first_package_x.egg-info/PKG-INFO
+[2.333s] writing dependency_links to ../../build/first_package_x/first_package_x.egg-info/dependency_links.txt
+[2.334s] writing entry points to ../../build/first_package_x/first_package_x.egg-info/entry_points.txt
+[2.334s] writing requirements to ../../build/first_package_x/first_package_x.egg-info/requires.txt
+[2.335s] writing top-level names to ../../build/first_package_x/first_package_x.egg-info/top_level.txt
+[2.340s] reading manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+[2.342s] writing manifest file '../../build/first_package_x/first_package_x.egg-info/SOURCES.txt'
+[2.343s] running build
+[2.343s] running build_py
+[2.344s] running install
+[2.345s] running install_lib
+[2.348s] running install_data
+[2.349s] running install_egg_info
+[2.353s] removing '/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x-0.0.0-py3.10.egg-info' (and everything under it)
+[2.354s] Copying ../../build/first_package_x/first_package_x.egg-info to /home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages/first_package_x-0.0.0-py3.10.egg-info
+[2.357s] running install_scripts
+[2.403s] Installing draw_circle_turtle script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[2.403s] Installing pose_suscriber script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[2.404s] Installing test_node_1 script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[2.404s] Installing turtle_controller script to /home/ffons/ros2_companion_ws/install/first_package_x/lib/first_package_x
+[2.405s] writing list of installed files to '/home/ffons/ros2_companion_ws/build/first_package_x/install.log'
+[2.457s] Invoked command in '/home/ffons/ros2_companion_ws/scr/first_package_x' returned '0': PYTHONPATH=/home/ffons/ros2_companion_ws/build/first_package_x/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/first_package_x/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/first_package_x build --build-base /home/ffons/ros2_companion_ws/build/first_package_x/build install --record /home/ffons/ros2_companion_ws/build/first_package_x/install.log --single-version-externally-managed install_data

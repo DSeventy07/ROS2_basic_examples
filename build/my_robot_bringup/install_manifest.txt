@@ -1,4 +1,5 @@
 /home/ffons/ros2_companion_ws/install/my_robot_bringup/share/my_robot_bringup/launch/demo.launch.py
+/home/ffons/ros2_companion_ws/install/my_robot_bringup/share/my_robot_bringup/config/params.yaml
 /home/ffons/ros2_companion_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
 /home/ffons/ros2_companion_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
 /home/ffons/ros2_companion_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
