@@ -1,0 +1,7 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/ffons/ros2_companion_ws/scr/my_robot_interfaces:msg/TargetCoordinates.msg",
+    "/home/ffons/ros2_companion_ws/scr/my_robot_interfaces:srv/SetLed.srv"
+  ]
+}
