@@ -76,6 +76,11 @@ CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/sr
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__struct.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__traits.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__type_support.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__builder.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__struct.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp
+CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__type_support.hpp
 CMakeFiles/my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -95,6 +100,7 @@ rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/hu
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: rosidl_adapter/my_robot_interfaces/msg/TargetCoordinates.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: rosidl_adapter/my_robot_interfaces/srv/SetLed.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: rosidl_adapter/my_robot_interfaces/action/CountUntil.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -157,6 +163,13 @@ rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/hu
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ffons/ros2_companion_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/ffons/ros2_companion_ws/build/my_robot_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -187,7 +200,27 @@ rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__traits.hpp: rosidl_
 rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__type_support.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/srv/detail/set_led__type_support.hpp
 
+rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__builder.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__builder.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__struct.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__struct.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp
+
+rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__type_support.hpp: rosidl_generator_cpp/my_robot_interfaces/msg/target_coordinates.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__type_support.hpp
+
 my_robot_interfaces__cpp: CMakeFiles/my_robot_interfaces__cpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/count_until.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__builder.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__struct.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__traits.hpp
+my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/action/detail/count_until__type_support.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/target_coordinates__builder.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/target_coordinates__struct.hpp
 my_robot_interfaces__cpp: rosidl_generator_cpp/my_robot_interfaces/msg/detail/target_coordinates__traits.hpp

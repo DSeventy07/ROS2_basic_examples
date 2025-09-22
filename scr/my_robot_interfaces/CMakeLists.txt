@@ -14,6 +14,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TargetCoordinates.msg"
   "srv/SetLed.srv"
+  "action/CountUntil.action"
   DEPENDENCIES geometry_msgs
 )
 
