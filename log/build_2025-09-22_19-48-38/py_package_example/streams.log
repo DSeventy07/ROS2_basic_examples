@@ -1,0 +1,21 @@
+[3.379s] Invoking command in '/home/ffons/ros2_companion_ws/scr/py_package_example': PYTHONPATH=/home/ffons/ros2_companion_ws/build/py_package_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/py_package_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_package_example build --build-base /home/ffons/ros2_companion_ws/build/py_package_example/build install --record /home/ffons/ros2_companion_ws/build/py_package_example/install.log --single-version-externally-managed install_data
+[4.040s] running egg_info
+[4.048s] writing ../../build/py_package_example/py_package_example.egg-info/PKG-INFO
+[4.048s] writing dependency_links to ../../build/py_package_example/py_package_example.egg-info/dependency_links.txt
+[4.048s] writing entry points to ../../build/py_package_example/py_package_example.egg-info/entry_points.txt
+[4.048s] writing requirements to ../../build/py_package_example/py_package_example.egg-info/requires.txt
+[4.048s] writing top-level names to ../../build/py_package_example/py_package_example.egg-info/top_level.txt
+[4.052s] reading manifest file '../../build/py_package_example/py_package_example.egg-info/SOURCES.txt'
+[4.057s] writing manifest file '../../build/py_package_example/py_package_example.egg-info/SOURCES.txt'
+[4.058s] running build
+[4.058s] running build_py
+[4.061s] running install
+[4.065s] running install_lib
+[4.070s] running install_data
+[4.071s] running install_egg_info
+[4.076s] removing '/home/ffons/ros2_companion_ws/install/py_package_example/lib/python3.10/site-packages/py_package_example-0.0.0-py3.10.egg-info' (and everything under it)
+[4.077s] Copying ../../build/py_package_example/py_package_example.egg-info to /home/ffons/ros2_companion_ws/install/py_package_example/lib/python3.10/site-packages/py_package_example-0.0.0-py3.10.egg-info
+[4.079s] running install_scripts
+[4.134s] Installing py_node script to /home/ffons/ros2_companion_ws/install/py_package_example/lib/py_package_example
+[4.135s] writing list of installed files to '/home/ffons/ros2_companion_ws/build/py_package_example/install.log'
+[4.257s] Invoked command in '/home/ffons/ros2_companion_ws/scr/py_package_example' returned '0': PYTHONPATH=/home/ffons/ros2_companion_ws/build/py_package_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/py_package_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_package_example build --build-base /home/ffons/ros2_companion_ws/build/py_package_example/build install --record /home/ffons/ros2_companion_ws/build/py_package_example/install.log --single-version-externally-managed install_data

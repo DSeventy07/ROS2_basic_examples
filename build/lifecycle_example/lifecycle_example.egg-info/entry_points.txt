@@ -1,0 +1,3 @@
+[console_scripts]
+lifecycle_test = lifecycle_example.lifecycle_node:main
+

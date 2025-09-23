@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/lifecycle_example/lifecycle_example.egg-info
+writing ../../build/lifecycle_example/lifecycle_example.egg-info/PKG-INFO
+writing dependency_links to ../../build/lifecycle_example/lifecycle_example.egg-info/dependency_links.txt
+writing entry points to ../../build/lifecycle_example/lifecycle_example.egg-info/entry_points.txt
+writing requirements to ../../build/lifecycle_example/lifecycle_example.egg-info/requires.txt
+writing top-level names to ../../build/lifecycle_example/lifecycle_example.egg-info/top_level.txt
+writing manifest file '../../build/lifecycle_example/lifecycle_example.egg-info/SOURCES.txt'
+reading manifest file '../../build/lifecycle_example/lifecycle_example.egg-info/SOURCES.txt'
+writing manifest file '../../build/lifecycle_example/lifecycle_example.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ffons/ros2_companion_ws/build/lifecycle_example/build
+creating /home/ffons/ros2_companion_ws/build/lifecycle_example/build/lib
+creating /home/ffons/ros2_companion_ws/build/lifecycle_example/build/lib/lifecycle_example
+copying lifecycle_example/lifecycle_node.py -> /home/ffons/ros2_companion_ws/build/lifecycle_example/build/lib/lifecycle_example
+copying lifecycle_example/__init__.py -> /home/ffons/ros2_companion_ws/build/lifecycle_example/build/lib/lifecycle_example
+running install
+running install_lib
+creating /home/ffons/ros2_companion_ws/install/lifecycle_example/lib/python3.10/site-packages/lifecycle_example
+copying /home/ffons/ros2_companion_ws/build/lifecycle_example/build/lib/lifecycle_example/lifecycle_node.py -> /home/ffons/ros2_companion_ws/install/lifecycle_example/lib/python3.10/site-packages/lifecycle_example
+copying /home/ffons/ros2_companion_ws/build/lifecycle_example/build/lib/lifecycle_example/__init__.py -> /home/ffons/ros2_companion_ws/install/lifecycle_example/lib/python3.10/site-packages/lifecycle_example
+byte-compiling /home/ffons/ros2_companion_ws/install/lifecycle_example/lib/python3.10/site-packages/lifecycle_example/lifecycle_node.py to lifecycle_node.cpython-310.pyc
+byte-compiling /home/ffons/ros2_companion_ws/install/lifecycle_example/lib/python3.10/site-packages/lifecycle_example/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ffons/ros2_companion_ws/install/lifecycle_example/share/ament_index
+creating /home/ffons/ros2_companion_ws/install/lifecycle_example/share/ament_index/resource_index
+creating /home/ffons/ros2_companion_ws/install/lifecycle_example/share/ament_index/resource_index/packages
+copying resource/lifecycle_example -> /home/ffons/ros2_companion_ws/install/lifecycle_example/share/ament_index/resource_index/packages
+copying package.xml -> /home/ffons/ros2_companion_ws/install/lifecycle_example/share/lifecycle_example
+running install_egg_info
+Copying ../../build/lifecycle_example/lifecycle_example.egg-info to /home/ffons/ros2_companion_ws/install/lifecycle_example/lib/python3.10/site-packages/lifecycle_example-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lifecycle_test script to /home/ffons/ros2_companion_ws/install/lifecycle_example/lib/lifecycle_example
+writing list of installed files to '/home/ffons/ros2_companion_ws/build/lifecycle_example/install.log'

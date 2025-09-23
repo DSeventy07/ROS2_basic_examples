@@ -1,0 +1,35 @@
+[3.483s] Invoking command in '/home/ffons/ros2_companion_ws/build/actions_py': PYTHONPATH=/home/ffons/ros2_companion_ws/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ffons/ros2_companion_ws/build/actions_py/build
+[4.212s] running develop
+[4.714s] Removing /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions-py.egg-link (link to .)
+[4.792s] Invoked command in '/home/ffons/ros2_companion_ws/build/actions_py' returned '0': PYTHONPATH=/home/ffons/ros2_companion_ws/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ffons/ros2_companion_ws/build/actions_py/build
+[4.803s] Invoking command in '/home/ffons/ros2_companion_ws/scr/actions_py': PYTHONPATH=/home/ffons/ros2_companion_ws/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/ffons/ros2_companion_ws/build/actions_py/build install --record /home/ffons/ros2_companion_ws/build/actions_py/install.log --single-version-externally-managed install_data --force
+[5.428s] running egg_info
+[5.430s] writing ../../build/actions_py/actions_py.egg-info/PKG-INFO
+[5.432s] writing dependency_links to ../../build/actions_py/actions_py.egg-info/dependency_links.txt
+[5.432s] writing entry points to ../../build/actions_py/actions_py.egg-info/entry_points.txt
+[5.433s] writing requirements to ../../build/actions_py/actions_py.egg-info/requires.txt
+[5.433s] writing top-level names to ../../build/actions_py/actions_py.egg-info/top_level.txt
+[5.439s] reading manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[5.443s] writing manifest file '../../build/actions_py/actions_py.egg-info/SOURCES.txt'
+[5.443s] running build
+[5.444s] running build_py
+[5.444s] copying actions_py/count_until_client.py -> /home/ffons/ros2_companion_ws/build/actions_py/build/lib/actions_py
+[5.446s] running install
+[5.446s] running install_lib
+[5.449s] creating /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[5.450s] copying /home/ffons/ros2_companion_ws/build/actions_py/build/lib/actions_py/count_until_server.py -> /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[5.450s] copying /home/ffons/ros2_companion_ws/build/actions_py/build/lib/actions_py/count_until_client.py -> /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[5.451s] copying /home/ffons/ros2_companion_ws/build/actions_py/build/lib/actions_py/__init__.py -> /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions_py
+[5.454s] byte-compiling /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_server.py to count_until_server.cpython-310.pyc
+[5.458s] byte-compiling /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions_py/count_until_client.py to count_until_client.cpython-310.pyc
+[5.459s] byte-compiling /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions_py/__init__.py to __init__.cpython-310.pyc
+[5.459s] running install_data
+[5.459s] copying resource/actions_py -> /home/ffons/ros2_companion_ws/install/actions_py/share/ament_index/resource_index/packages
+[5.460s] copying package.xml -> /home/ffons/ros2_companion_ws/install/actions_py/share/actions_py
+[5.462s] running install_egg_info
+[5.471s] Copying ../../build/actions_py/actions_py.egg-info to /home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages/actions_py-0.0.0-py3.10.egg-info
+[5.473s] running install_scripts
+[5.523s] Installing count_until_client script to /home/ffons/ros2_companion_ws/install/actions_py/lib/actions_py
+[5.523s] Installing count_until_server script to /home/ffons/ros2_companion_ws/install/actions_py/lib/actions_py
+[5.524s] writing list of installed files to '/home/ffons/ros2_companion_ws/build/actions_py/install.log'
+[5.598s] Invoked command in '/home/ffons/ros2_companion_ws/scr/actions_py' returned '0': PYTHONPATH=/home/ffons/ros2_companion_ws/build/actions_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ffons/ros2_companion_ws/install/actions_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/actions_py build --build-base /home/ffons/ros2_companion_ws/build/actions_py/build install --record /home/ffons/ros2_companion_ws/build/actions_py/install.log --single-version-externally-managed install_data --force
